@@ -9,14 +9,17 @@ Medical domain is one such area where obtaining an enormous number of images in 
 In this project we took inspiration from the work done by Maayan Frid-Adar et. al. in this paper: [*GAN-based Synthetic Medical Image Augmentation for increased CNN Performance in Liver Lesion Classification*](https://arxiv.org/pdf/1803.01229.pdf), and by Mohamed Loey et. al. and in this paper: [*Within the Lack of Chest COVID-19 X-ray Dataset: A Novel Detection Model Based on GAN and Deep Transfer Learning*](https://www.mdpi.com/2073-8994/12/4/651/pdf)
 
 <p align="center" width="100%">
-<img  src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/tot_acc.png" alt="" width= '800px'/>
+<img  src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/tot_acc.png" alt="" width= '600px'/>
 </p>
 
 **Dataset**: [covid-chestxray-dataset](https://github.com/ieee8023/covid-chestxray-dataset)
 
 4 classes
 
-<img align="center" src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/classes.png" alt="" width= '400px'/>
+
+<p align="center" width="100%">
+<img src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/classes.png" alt="" width= '800px'/>
+</p>
 
 **Results**: [here](/results/)
 
@@ -28,17 +31,26 @@ We demonstrated how synthetic augmentation of the CNN training set, using the ge
 
 CNN classification performances with classic data augmentation:
 
-<img align="center" src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/best_classic.png" alt="" width= '400px'/>
+<p align="center" width="100%">
+<img src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/best_classic.png" alt="" width= '800px'/>
+</p>
 
 CNN classification performances with synthetic (DCGAN generated) data augmentation:
 
-<img align="center" src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/best_synthetic.png" alt="" width= '400px'/>
+<p align="center" width="100%">
+<img src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/best_synthetic.png" alt="" width= '800px'/>
+</p>
 
-<img align="center" src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/best_confusion_synthetic.png" alt="" width= '400px'/>
+
+<p align="center" width="100%">
+<img src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/best_confusion_synthetic.png" alt="" width= '600px'/>
+</p>
 
 Training history (best - 0.907 total accuracy in 720 epochs on trainset made by 270 original images, 2000 classic and 1000 synthetic augmented):
 
-<img align="center" src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/best_history.png" alt="" width= '400px'/>
+<p align="center" width="100%">
+<img src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/best_history.png" alt="" width= '100%'/>
+</p>
 
 **Documentation**: [here](/report.pdf)
 
