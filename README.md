@@ -16,13 +16,13 @@ In this project we took inspiration from the work done by Maayan Frid-Adar et. a
 
 **DATASET**
 
-COVID-19 X-rays scans images, 4 classes classification task:
+COVID-19 X-rays chest scans images, 4 classes classification task:
 
 <p align="center" width="100%">
 <img src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/classes.png" alt="" width= '800px'/>
 </p>
 
-more about dataset origin [here](https://github.com/ieee8023/covid-chestxray-dataset).
+more about dataset source [here](https://github.com/ieee8023/covid-chestxray-dataset).
 
 **RESULTS**:
 
@@ -32,7 +32,7 @@ We designed a CNN-based solution for pneumonia infection classification task, wi
 
 We demonstrated how synthetic augmentation of the CNN training set, using the generated synthetic data by GANs, highly improved classification results: the classification performance using only classic data augmentation yielded 82.7% sensitivity and 90.4% specificity. By adding the synthetic data augmentation the results increased to 90.6% sensitivity and 97.2% specificity.
 
-We obtain an high total accuracy gain, from 0.827 to 0.907:
+Total accuracy gain, from 82.7% with classic augmented trainset to 90.7% with synthetic augmented trainset:
 
 <p align="center" width="100%">
 <img  src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/tot_acc.png" alt="" width= '600px'/>
