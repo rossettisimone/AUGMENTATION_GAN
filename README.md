@@ -67,7 +67,4 @@ more about results achieved [here](/results/).
 **DOCUMENTATION**: 
 
 more informations about the work done [here](/report_draft_1.pdf).
-
-**KEYWORDS**
-
-Image synthesis, Convolutional Neural Network, Generative Adversarial Network, Data Augmentation. 
+ 
