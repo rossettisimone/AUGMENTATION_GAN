@@ -100,7 +100,7 @@ Training history (best - 0.907 total accuracy in 720 epochs on trainset made by 
 <img src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/best_history.png" alt="" width= '100%'/>
 </p>
 
-more about results achieved [here](/results/).
+more about CNN trained models and results achieved [here](/results/).
 
 **DOCUMENTATION**: 
 
