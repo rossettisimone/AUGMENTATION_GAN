@@ -35,28 +35,28 @@ Below are the stack of real X-ray images coming from the dataset and fake X-ray 
 - Covid X-ray real (left) and fake (right)
 
 <p float="left">
-  <img src="/images/covid_o.png" width="45%" title="covid real"/>
+  <img src="/images/covid_o.png" width="45%" height="95%" title="covid real"/>
   <img src="/images/C32.png" width="45%" title="covid fake"/> 
 </p>
 
 - Normal X-ray real (left) and fake (right)
 
 <p float="left">
-  <img src="/images/normal_o.png" width="45%" title="normal real"/>
+  <img src="/images/normal_o.png" width="45%" height="95%" title="normal real"/>
   <img src="/images/N32.png" width="45%" title="normal fake"/> 
 </p>
 
 - Pneumonia bacteria X-ray real (left) and fake (right)
 
 <p float="left">
-  <img src="/images/p_bac_o.png" width="45%" title="pneumonia bacteria real"/>
+  <img src="/images/p_bac_o.png" width="45%" height="95%" title="pneumonia bacteria real"/>
   <img src="/images/PB32.png" width="45%" title="pneumonia bacteria fake"/> 
 </p>
 
 - Pneumonia virus X-ray real (left) and fake (right)
 
 <p float="left">
-  <img src="/images/p_vir_o.png" width="45%" title="pneumonia virus real"/>
+  <img src="/images/p_vir_o.png" width="45%" height="95%" title="pneumonia virus real"/>
   <img src="/images/PV32.png" width="45%" title="pneumonia virus fake" /> 
 </p>
 
