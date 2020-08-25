@@ -30,31 +30,29 @@ more about dataset source [here](https://github.com/ieee8023/covid-chestxray-dat
 
 Below are the stack of real X-ray images coming from the dataset and fake X-ray images generated from GANs trained for each of the four classes,covid, normal, pneumonia bacteria,& pneumonia virus, under consideration.
 
-<p align="middle">
-  <img src="/images/covid_o.png" width="100" />
-  <em>covid real</em>
-  <img src="/images/C32.png" width="100" /> 
-  <em>covid fake</em>
+<p float="left">
+  <img src="/images/covid_o.png" width="45%" title="covid real"/>
+  <img src="/images/C32.png" width="45%" title="covid fake"/> 
 </p>
 
-<p align="middle">
-  <img src="/images/normal_o.png" width="100" />
+<p float="left">
+  <img src="/images/normal_o.png" width="45%" />
   <em>normal real</em>
-  <img src="/images/N32.png" width="100" /> 
+  <img src="/images/N32.png" width="45%" /> 
   <em>normal fake</em>
 </p>
 
-<p align="middle">
-  <img src="/images/p_bac_o.png" width="100" />
+<p float="left">
+  <img src="/images/p_bac_o.png" width="45%" />
   <em>pneumonia bacteria real</em>
-  <img src="/images/PB32.png" width="100" /> 
+  <img src="/images/PB32.png" width="45%" /> 
   <em>pneumonia bacteria fake</em>
 </p>
 
-<p align="middle">
-  <img src="/images/p_vir_o.png" width="100" />
+<p float="left">
+  <img src="/images/p_vir_o.png" width="45%" />
   <em>pneumonia virus real</em>
-  <img src="/images/PV32.png" width="100" /> 
+  <img src="/images/PV32.png" width="45%" /> 
   <em>pneumonia virus fake</em>
 </p>
 
