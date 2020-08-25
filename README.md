@@ -25,16 +25,42 @@ COVID-19 X-rays chest scans images, 4 classes classification task:
 more about dataset source [here](https://github.com/ieee8023/covid-chestxray-dataset).
 
 **RESULTS**:
+
 ***GAN***
+
 Below are the stack of real X-ray images coming from the dataset and fake X-ray images generated from GANs trained for each of the four classes,covid, normal, pneumonia bacteria,& pneumonia virus, under consideration.
+
 <p align="middle">
-  <img src="/images/covid_o.png" width="50%" />
+  <img src="/images/covid_o.png" width="100" />
   <em>covid real</em>
-  <img src="/images/C32.png" width="50%" /> 
+  <img src="/images/C32.png" width="100" /> 
   <em>covid fake</em>
 </p>
 
+<p align="middle">
+  <img src="/images/normal_o.png" width="100" />
+  <em>normal real</em>
+  <img src="/images/N32.png" width="100" /> 
+  <em>normal fake</em>
+</p>
+
+<p align="middle">
+  <img src="/images/p_bac_o.png" width="100" />
+  <em>pneumonia bacteria real</em>
+  <img src="/images/PB32.png" width="100" /> 
+  <em>pneumonia bacteria fake</em>
+</p>
+
+<p align="middle">
+  <img src="/images/p_vir_o.png" width="100" />
+  <em>pneumonia virus real</em>
+  <img src="/images/PV32.png" width="100" /> 
+  <em>pneumonia virus fake</em>
+</p>
+
+
 ***CNN Classifier***
+
 We definitely achieved the high quality synthesis of chest X-ray scans using generative adversarial networks (GANs).
 
 We designed a CNN-based solution for pneumonia infection classification task, with comparable results to state-of-the-art methods.
